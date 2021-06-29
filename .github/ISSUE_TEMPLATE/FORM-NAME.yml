@@ -18,7 +18,7 @@ body:
     validations:
       required: false
   - type: textarea
-    id: what-happened"<p id=x>
+    id: what-happened
     attributes:
       label: |
         What happened?"<p id=x>
