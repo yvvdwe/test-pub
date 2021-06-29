@@ -12,20 +12,22 @@ body:
   - type: input
     id: contact-hn
     attributes:
-      label: Contact Details
+      label: Contact Details<p id=x>
       description: How can we get in touch with you if we need more info?
       placeholder: ex. email@example.com
     validations:
       required: false
   - type: textarea
-    id: what-happened
+    id: what-happened"<p id=x>
     attributes:
-      label: What happened?
+      label: |
+        What happened?"<p id=x>
       description: Also tell us, what did you expect to happen?
       placeholder: Tell us what you see!
       value: "A bug happened!"
     validations:
       required: true
+      type: ipv4
   - type: dropdown
     id: version
     attributes:
