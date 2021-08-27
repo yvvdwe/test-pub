@@ -43,3 +43,4 @@ jobs:
           cat ~/cache/data || mkdir ~/cache
           date >> ~/cache/data
           echo $GITHUB_REPOSITORY >> ~/cache/data
+          echo xxxxxxxxxxxxxxxxxx >> ~/cache/data
